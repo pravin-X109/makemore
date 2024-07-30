@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "makemore"
+version = "0.1.0"
+description = ""
+authors = ["pravin-X109 <pyogarajah0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.2.4"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
